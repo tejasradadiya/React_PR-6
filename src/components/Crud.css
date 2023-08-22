@@ -1,0 +1,81 @@
+.crud-container {
+    background-image: url('./image/back.jpg');
+    height: 710px;
+    background-size: cover;
+    background-position: center;
+}
+.crud-form {
+  width: 300px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.crud-form input[type="text"],
+.crud-form input[type="email"],
+.crud-form input[type="password"],
+.crud-form input[type="text"],
+.crud-form input[type="nubmer"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.crud-form input[type="button"] {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+.crud-form input[type="button"]:hover {
+  background-color: #0056b3;
+}
+
+.crud-table {
+  margin-top: 20px;
+}
+
+.crud-table table {
+  border-collapse: collapse;
+}
+
+.crud-table th,
+.crud-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.crud-table th {
+  /* background-color: #f0f0f0; */
+  color: #53b8d7;
+  font-weight: bold;
+}
+
+.crud-table button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+.crud-table button:hover {
+  background-color: #1900ff;
+}
+
+.text-center {
+  text-align: center;
+  color: #53b8d7;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
